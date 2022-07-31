@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.TextFlow?>
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="thedrake.ui.Controller"
+            id="root">
+    <top>
+        <TextFlow id="heading">
+            <Text text="The Drake" />
+        </TextFlow>
+    </top>
+    <center>
+        <VBox id="buttons">
+            <Button onAction="#startLocalGame">Hra dvou hráčů</Button>
+            <Button>Hra proti počítači</Button>
+            <Button>Hra po internetu</Button>
+            <Button onAction="#closeStage">Konec</Button>
+        </VBox>
+    </center>
+</BorderPane>

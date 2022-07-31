@@ -1,0 +1,36 @@
+#root {
+    -fx-padding: 20px;
+    -fx-background-image: url("background.png");
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
+
+#heading {
+    -fx-padding: 30px;
+    -fx-text-alignment: center;
+    -fx-font-family: "sans-serif";
+    -fx-font-size: 24pt;
+}
+
+#buttons {
+    -fx-spacing: 1em;
+    -fx-alignment: center;
+}
+
+#buttons Button {
+    -fx-border-width: 2px;
+    -fx-border-color: rgb(156, 37, 2);
+    -fx-border-radius: 0;
+    -fx-min-width: 18em;
+    -fx-min-height: 3em;
+    -fx-background-color: rgb(209, 156, 8);
+    -fx-font-weight: bold;
+    -fx-font-size: 1.2em;
+}
+
+#buttons Button:hover {
+    -fx-background-color: rgb(255, 210, 86);
+    -fx-border-color: rgb(156, 37, 2);
+    -fx-scale-x: 105%;
+    -fx-scale-y: 110%;
+}
